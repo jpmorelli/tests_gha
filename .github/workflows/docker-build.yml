@@ -3,8 +3,8 @@ name: deploy
 
 jobs:
   build-and-push:
-    - name: build and push image
-      runs-on: ubuntu-latest
+    name: build and push image
+    runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@master
